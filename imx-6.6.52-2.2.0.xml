@@ -24,7 +24,7 @@
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-  <project name="meta-freescale" remote="NuvePort" path="sources/meta-freescale" revision="refs/tags/nuve-fsl_v1.0.0" upstream="scarthgap"/> 
+  <project name="meta-freescale" remote="NuvePort" path="sources/meta-freescale" revision="refs/tags/nuve-fsl" upstream="scarthgap"/> 
   <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75" upstream="scarthgap"/>
   <project name="meta-freescale-distro" remote="community" path="sources/meta-freescale-distro" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
 
@@ -35,7 +35,7 @@
   <project name="meta-timesys" remote="timesys" path="sources/meta-timesys" revision="4dc3f4bdfde4a86904b6e1a3d58df4696e7a63fa" upstream="scarthgap"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="6f3c1d8f90947408a6587be222fec575a1ca5195" upstream="scarthgap"/>
 
-  <project name="meta-imx" remote="NuvePort" path="sources/meta-imx" revision="refs/tags/nuve-meta-imx_v1.0.0" upstream="scarthgap-6.6.52-2.2.0">
+  <project name="meta-imx" remote="NuvePort" path="sources/meta-imx" revision="refs/tags/nuve-meta-imx" upstream="scarthgap-6.6.52-2.2.0">
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
