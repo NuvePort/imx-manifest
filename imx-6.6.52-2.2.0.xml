@@ -13,7 +13,7 @@
   <remote name="qt"          fetch="https://github.com/YoeDistro"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
-  <remote name="imx"         fetch="https://github.com/NuvePort"/>
+  <remote name="NuvePort"         fetch="https://github.com/NuvePort"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724" upstream="scarthgap"/>
