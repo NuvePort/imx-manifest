@@ -12,7 +12,7 @@
   <remote name="qt"          fetch="https://github.com/YoeDistro"/>
   <remote name="timesys"     fetch="https://github.com/TimesysGit"/>
 
-  <remote name="NuvePort"    fetch="https://github.com/NuvePort"/>
+  <remote name="imx"         fetch="https://github.com/nxp-imx"/>
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <project name="poky" remote="yp" path="sources/poky" revision="200d12b6a58ad961d60a7774ca0f7a9d29498724" upstream="scarthgap"/>
@@ -23,7 +23,7 @@
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-  <project name="meta-freescale" remote="NuvePort" path="sources/meta-freescale" revision="refs/tags/nuve-fsl"/>
+  <project name="meta-freescale" remote="community" path="sources/meta-freescale" revision="0627128b341cfb2bef7a0832ce8cac0ce1127f13" upstream="scarthgap"/>
   <project name="meta-freescale-3rdparty" remote="community" path="sources/meta-freescale-3rdparty" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75" upstream="scarthgap"/>
   <project name="meta-freescale-distro" remote="community" path="sources/meta-freescale-distro" revision="b9d6a5d9931922558046d230c1f5f4ef6ee72345" upstream="scarthgap"/>
 
@@ -34,7 +34,7 @@
   <project name="meta-timesys" remote="timesys" path="sources/meta-timesys" revision="4dc3f4bdfde4a86904b6e1a3d58df4696e7a63fa" upstream="scarthgap"/>
   <project name="meta-virtualization" remote="yp" path="sources/meta-virtualization" revision="6f3c1d8f90947408a6587be222fec575a1ca5195" upstream="scarthgap"/>
 
-  <project name="meta-imx" remote="NuvePort" path="sources/meta-imx" revision="refs/tags/nuve-meta-imx"/>
+  <project name="meta-imx" remote="imx" path="sources/meta-imx" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0">
      <linkfile src="tools/imx-setup-release.sh" dest="imx-setup-release.sh"/>
      <linkfile src="README" dest="README-IMXBSP"/>
   </project>
@@ -42,5 +42,3 @@
   <project name="meta-nxp-demo-experience" remote="imx-support" path="sources/meta-nxp-demo-experience" revision="refs/tags/rel_imx_6.6.52_2.2.0" upstream="scarthgap-6.6.52-2.2.0"/>
 
 </manifest>
-
-
